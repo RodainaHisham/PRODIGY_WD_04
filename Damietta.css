@@ -1,0 +1,52 @@
+.h-container{
+    text-align: center;
+    margin-top: 60px;
+    font-size: xx-large;
+}
+#title::before, #title::after{
+    content:"";
+    height: 2px;
+    background-color: rgb(234, 206, 169);
+    display:block;
+    
+}
+.exp-content {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+.info {
+    margin-top: 150px;
+    flex: 3; 
+    border: 3px solid rgb(234, 206, 169);
+    padding: 20px;
+    border-radius: 8px;
+}
+#art {
+    display: block;
+    background: rgb(234, 206, 169);
+    color: #ffffff; 
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 250px;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 320px;
+    margin-top: -150px;
+    transition: background 0.5s ease, transform 0.5s ease; 
+}
+
+#art:hover {
+    background: rgb(182, 160, 131);
+    transform: translateY(-5px); 
+}
+
+#note{
+    margin-left:625px;
+    margin-top: -33px;
+    text-decoration: underline;
+    color: rgb(182, 160, 131) ;
+}

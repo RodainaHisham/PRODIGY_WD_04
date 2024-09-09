@@ -1,0 +1,25 @@
+.h-container{
+    text-align: center;
+    margin-top: 60px;
+    font-size: xx-large;
+}
+#title::before, #title::after{
+    content:"";
+    height: 2px;
+    background-color: rgb(234, 206, 169);
+    display:block;
+    
+}
+.exp-content {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+.info {
+    margin-top: 250px;
+    flex: 3; 
+    border: 3px solid rgb(234, 206, 169);
+    padding: 20px;
+    border-radius: 8px;
+}
